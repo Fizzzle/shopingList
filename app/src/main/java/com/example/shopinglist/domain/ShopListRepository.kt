@@ -9,5 +9,5 @@ interface ShopListRepository {
 
     fun deleteShopItem(shopItem: ShopItem)
 
-    fun getShopList() : List<ShopItem>
+    fun getShopList():List<ShopItem>
 }
